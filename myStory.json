@@ -1,0 +1,108 @@
+{
+    "Title": "Mystery of the Abandoned Mansion",
+    "Credits": "Sree Kolli",
+    "Locations": {
+        "Bedroom": {
+            "Body": "The Bedroom is dimly lit, with dusty furniture covered in white sheets. You find a diary lying on the bedside table.",
+            "Choices": [
+                {
+                    "Text": "Search the diary",
+                    "Target": "Attic"
+                },
+                {
+                    "Text": "Explore the closet",
+                    "Target": "LivingRoom"
+                }
+            ]
+        },
+        "LivingRoom": {
+            "Body": "The Living Room is the central hub of the mansion. Tattered curtains hang over broken windows, and old furniture sits covered in cobwebs. You notice a strange symbol carved into the fireplace.",
+            "Choices": [
+                {
+                    "Text": "Examine the symbol",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Search the bookshelf",
+                    "Target": "Attic"
+                },
+                {
+                    "Text": "Check under the rug",
+                    "Target": "SecretRoom"
+                }
+            ]
+        },
+        "Kitchen": {
+            "Body": "The Kitchen is cluttered with rusted pots and pans, and the remains of long-forgotten meals litter the countertops. You find a hidden compartment behind a loose brick in the wall.",
+            "Choices": [
+                {
+                    "Text": "Investigate the compartment",
+                    "Target": "SecretRoom"
+                },
+                {
+                    "Text": "Look for a way to the basement",
+                    "Target": "Basement"
+                },
+                {
+                    "Text": "Search the cabinets",
+                    "Target": "LivingRoom"
+                }
+            ]
+        },
+        "Attic": {
+            "Body": "The Attic is filled with dusty boxes and forgotten belongings. You find an old key hidden among the clutter.",
+            "Choices": [
+                {
+                    "Text": "Take the key",
+                    "Target": "Basement"
+                },
+                {
+                    "Text": "Search for more clues",
+                    "Target": "LivingRoom"
+                },
+                {
+                    "Text": "Inspect the old paintings",
+                    "Target": "SecretRoom"
+                }
+            ]
+        },
+        "Basement": {
+            "Body": "The Basement is dark and damp, with cobwebs clinging to the ceiling. You find a locked door leading to underground tunnels.",
+            "Choices": [
+                {
+                    "Text": "Use the key from the Attic",
+                    "Target": "SecretRoom"
+                },
+                {
+                    "Text": "Search for another way",
+                    "Target": "LivingRoom"
+                },
+                {
+                    "Text": "Examine the old furniture",
+                    "Target": "End"
+                }
+            ]
+        },
+        "SecretRoom": {
+            "Body": "The Secret Room is small and cramped, with shelves filled with mysterious artifacts. You notice an ancient grandfather clock in the corner.",
+            "Choices": [
+                {
+                    "Text": "Examine the grandfather clock",
+                    "Target": "End"
+                },
+                {
+                    "Text": "Search for hidden compartments",
+                    "Target": "Basement"
+                },
+                {
+                    "Text": "Read the old journals",
+                    "Target": "LivingRoom"
+                }
+            ]
+        },
+        "End": {
+            "Body": "You've uncovered the mysteries of the mansion and found the hidden treasure. Congratulations! You solved the mystery of the missing family heirloom, discovered the secret of the hidden tunnels, and the code hidden within the grandfather clock"
+             
+        }
+    }
+}
